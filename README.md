@@ -1,2 +1,2 @@
-# complete-java-masterclass
+# Complete Java Masterclass
 Complete Java Masterclass Course Material
