@@ -10,6 +10,6 @@ public class Main {
         System.out.println("Busted Maximum Value = " + (myMaxIntValue + 1));
         System.out.println("Busted Minimum Value = " + (myMinIntValue - 1));
 
-        int myMaxIntTest = 2147483647;
+        int myMaxIntTest = 2_147_483_647;
     }
 }
