@@ -22,5 +22,10 @@ public class Main {
         double numberOfPounds = 200d;
         double convertedKilograms = numberOfPounds * 0.45359237d;
         System.out.println("Converted Kilograms = " + convertedKilograms);
+
+        double pi = 3.1415927d;
+        double anotherNumber = 3_000_000.4_567_890d;
+        System.out.println("Pi = " + pi);
+        System.out.println("Another Number = " + anotherNumber);
     }
 }
