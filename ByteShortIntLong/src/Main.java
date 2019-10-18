@@ -28,6 +28,6 @@ public class Main {
         System.out.println("Long Minimum Value = " + myMinLongValue);
         System.out.println("Long Maximum Value = " + myMaxLongValue);
         long bigLongLiteralValue = 2_147_483_647_234L;
-        System.out.println("Big Long Literal: " + bigLongLiteralValue);
+        System.out.println("Big Long Literal = " + bigLongLiteralValue);
     }
 }
