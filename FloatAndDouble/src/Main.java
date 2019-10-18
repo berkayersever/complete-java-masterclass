@@ -13,7 +13,7 @@ public class Main {
         System.out.println("Double maximum value = " + myMaxDoubleValue);
 
         int myIntValue = 5;
-        float myFloatValue = 5f;
-        double myDoubleValue = 5d;
+        float myFloatValue = (float) 5.25;
+        double myDoubleValue = 5.25;
     }
 }
