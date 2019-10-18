@@ -12,7 +12,7 @@ public class Main {
 
         int myIntValue = 5 / 3;
         float myFloatValue = 5f / 3f;
-        double myDoubleValue = 5.00 / 3.00;
+        double myDoubleValue = 5d / 3d;
         System.out.println("My Int Value = " + myIntValue);
         System.out.println("My Float Value = " + myFloatValue);
         System.out.println("My Double Value = " + myDoubleValue);
