@@ -18,5 +18,9 @@ public class Main {
         System.out.println("My Int Value = " + myIntValue);
         System.out.println("My Float Value = " + myFloatValue);
         System.out.println("My Double Value = " + myDoubleValue);
+
+        double numberOfPounds = 200d;
+        double convertedKilograms = numberOfPounds * 0.45359237d;
+        System.out.println("Converted Kilograms = " + convertedKilograms);
     }
 }
