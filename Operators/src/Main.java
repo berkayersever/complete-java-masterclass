@@ -44,7 +44,7 @@ public class Main {
         }
 
         int topScore = 100;
-        if (topScore >= 100) {
+        if (topScore <= 100) {
             System.out.println("You got the highest score!");
         }
     }
