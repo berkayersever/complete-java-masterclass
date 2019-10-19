@@ -8,5 +8,9 @@ public class Main {
         System.out.println(myUnicodeChar);
         char myCopyrightChar = '\u00A9';
         System.out.println(myCopyrightChar);
+
+        boolean myTrueBooleanValue = true;
+        boolean myFalseBooleanValue = false;
+        boolean isCustomerOverTwentyOne = true;
     }
 }
