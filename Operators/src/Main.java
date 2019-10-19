@@ -79,7 +79,7 @@ public class Main {
         System.out.println("My values total = " + myValuesTotal);
         double theRemainder = myValuesTotal % 40.00d;
         System.out.println("The remainder = " + theRemainder);
-        boolean isNoRemainder = (theRemainder == 0.00d) ? true : false;
+        boolean isNoRemainder = (theRemainder == 0) ? true : false;
         System.out.println("No remainder = " + isNoRemainder);
         if (!isNoRemainder) {
             System.out.println("Got some remainder!");
