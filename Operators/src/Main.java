@@ -66,5 +66,23 @@ public class Main {
         if (!isCar) {
             System.out.println("This is not supposed to happen!");
         }
+
+        isCar = true;
+        boolean wasCar = isCar ? true : false;
+        if (wasCar) {
+            System.out.println("wasCar is TRUE!");
+        }
+
+        double myFirstValue = 20.00d;
+        double mySecondValue = 80.00d;
+        double myValuesTotal = (myFirstValue + mySecondValue) * 100.00;
+        System.out.println("My values total = " + myValuesTotal);
+        double theRemainder = myValuesTotal % 40.00d;
+        System.out.println("The remainder = " + theRemainder);
+        boolean isNoRemainder = (theRemainder == 0.00d) ? true : false;
+        System.out.println("Is there any remainder = " + isNoRemainder);
+        if (!isNoRemainder) {
+            System.out.println("Got some remainder!");
+        }
     }
 }
