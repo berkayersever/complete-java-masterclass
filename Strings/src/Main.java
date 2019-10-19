@@ -20,6 +20,12 @@ public class Main {
         String numberString = "250.55";
         numberString += "49.95";
         System.out.println(numberString);
-
+        String lastString = "10";
+        int myInt = 50;
+        lastString += myInt;
+        System.out.println("Last string is equal to " + lastString);
+        double doubleNumber = 120.47d;
+        lastString += doubleNumber;
+        System.out.println("Last string is equal to " + lastString);
     }
 }
