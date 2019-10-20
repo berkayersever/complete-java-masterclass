@@ -7,8 +7,9 @@ public class Main {
         int levelCompleted = 5;
         int bonus = 100;
 
-        if (score == 5000)
+        if (score == 5000) {
             System.out.println("Your score was 5000.");
+        }
         System.out.println("This was executed!");
     }
 }
