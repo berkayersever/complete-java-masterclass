@@ -14,9 +14,7 @@ public class Main {
             System.out.println("Your final score was " + finalScore);
             return finalScore;
         }
-        else {
-            return -1;
-        }
+        return -1;
     }
 }
 
