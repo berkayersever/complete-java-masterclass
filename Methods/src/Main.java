@@ -7,26 +7,7 @@ public class Main {
         int bonus = 100;
 
         calculateScore(true, 800, levelCompleted, bonus);
-
-        /*if (score <= 5000 && score > 1000) {
-            System.out.println("Your score was less than 5000, but greater than 1000.");
-        }
-        else if (score < 1000) {
-            System.out.println("Your score was less than 1000.");
-        }
-        else {
-            System.out.println("Got here!");
-        }*/
-
-        if (gameOver) {
-            int finalScore = score + (levelCompleted * bonus);
-            System.out.println("Your final score was " + finalScore);
-            score = 10000;
-            levelCompleted = 8;
-            bonus = 200;
-            finalScore = score + (levelCompleted * bonus);
-
-        }
+        calculateScore(true, 10000, 8, 200);
     }
 
     public static void calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
