@@ -6,6 +6,10 @@ public class Main {
         calculateScore(true, 10000, 8, 200);
     }
 
+    public static void displayHighScorePosition(String playerName, int highScorePosition) {
+        System.out.println(playerName + " managed to get into position " + highScorePosition + " on the high score table");
+    }
+
     public static int calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
 
         if (gameOver) {
@@ -17,6 +21,3 @@ public class Main {
         return -1;
     }
 }
-
-
-
