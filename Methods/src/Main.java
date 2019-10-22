@@ -7,7 +7,7 @@ public class Main {
     }
 
     public static void displayHighScorePosition(String playerName, int highScorePosition) {
-        System.out.println(playerName + " managed to get into position " + highScorePosition + " on the high score table");
+        System.out.println(playerName + " managed to get into position " + highScorePosition + " on the high score table.");
     }
 
     public static int calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
