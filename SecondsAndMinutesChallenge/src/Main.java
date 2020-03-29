@@ -15,6 +15,10 @@ public class Main {
         if (hours < 10) {
             hoursString = "0" + hoursString;
         }
+        String minutesString = minutes + "m";
+        if (minutes < 10) {
+            minutesString = "0" + minutesString;
+        }
         return hours + "h " + remainingMinutes + "m " + seconds + "s";
     }
 
