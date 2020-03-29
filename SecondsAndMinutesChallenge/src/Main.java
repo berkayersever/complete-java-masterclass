@@ -11,6 +11,10 @@ public class Main {
         }
         int hours = minutes / 60;
         int remainingMinutes = minutes % 60;
+        String hoursString = hours + "h";
+        if (hours < 10) {
+            hoursString = "0" + hoursString;
+        }
         return hours + "h " + remainingMinutes + "m " + seconds + "s";
     }
 
