@@ -23,7 +23,7 @@ public class Main {
         if (seconds < 10) {
             secondsString = "0" + secondsString;
         }
-        return hoursString + " " + minutesString + " " + seconds + "s";
+        return hoursString + " " + minutesString + " " + secondsString;
     }
 
     private static String getDurationString(int seconds) {
