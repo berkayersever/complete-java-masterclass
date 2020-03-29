@@ -17,11 +17,11 @@ public class Main {
         }
         String minutesString = remainingMinutes + "m";
         if (remainingMinutes < 10) {
-            minutesString = "0";
+            minutesString += "0";
         }
         String secondsString = seconds + "s";
         if (seconds < 10) {
-            secondsString = "0";
+            secondsString += "0";
         }
         return hoursString + " " + minutesString + " " + secondsString;
     }
