@@ -13,15 +13,15 @@ public class Main {
         int remainingMinutes = minutes % 60;
         String hoursString = hours + "h";
         if (hours < 10) {
-            hoursString = "0" + hoursString;
+            hoursString += "0";
         }
         String minutesString = remainingMinutes + "m";
         if (remainingMinutes < 10) {
-            minutesString = "0" + minutesString;
+            minutesString = "0";
         }
         String secondsString = seconds + "s";
         if (seconds < 10) {
-            secondsString = "0" + secondsString;
+            secondsString = "0";
         }
         return hoursString + " " + minutesString + " " + secondsString;
     }
