@@ -6,6 +6,7 @@ public class Main {
         System.out.println(getDurationString(65, 45));
         System.out.println(getDurationString(3945));
         System.out.println(getDurationString(-10));
+        System.out.println(getDurationString(65, 9));
     }
 
     private static String getDurationString(int minutes, int seconds) {
