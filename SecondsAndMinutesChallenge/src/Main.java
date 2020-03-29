@@ -19,7 +19,7 @@ public class Main {
         if (remainingMinutes < 10) {
             minutesString = "0" + minutesString;
         }
-        String secondsString = minutes + "s";
+        String secondsString = seconds + "s";
         if (seconds < 10) {
             secondsString = "0" + secondsString;
         }
