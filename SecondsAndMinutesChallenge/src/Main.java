@@ -19,6 +19,10 @@ public class Main {
         if (minutes < 10) {
             minutesString = "0" + minutesString;
         }
+        String secondsString = minutes + "s";
+        if (seconds < 10) {
+            secondsString = "0" + secondsString;
+        }
         return hours + "h " + remainingMinutes + "m " + seconds + "s";
     }
 
