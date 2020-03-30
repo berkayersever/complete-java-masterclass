@@ -36,6 +36,7 @@ public class Main {
                 break;
             default:
                 System.out.println("A, B, C, D, E not found!");
+                break;
         }
     }
 }
