@@ -38,10 +38,10 @@ public class Main {
                 System.out.println("A, B, C, D, E not found!");
                 break;
         }
-        String month = "April";
-        switch (month) {
-            case "January": case "February": case "March:":
-                System.out.println(month);
+        String month = "March";
+        switch (month.toUpperCase()) {
+            case "JANUARY": case "FEBRUARY": case "MARCH":
+                System.out.println(month.toUpperCase().substring(0, 3));
                 break;
             default:
                 System.out.println("Not sure!");
