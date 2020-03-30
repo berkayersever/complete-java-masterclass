@@ -38,5 +38,14 @@ public class Main {
                 System.out.println("A, B, C, D, E not found!");
                 break;
         }
+        String month = "April";
+        switch (month) {
+            case "January": case "February": case "March:":
+                System.out.println(month);
+                break;
+            default:
+                System.out.println("Not sure!");
+                break;
+        }
     }
 }
