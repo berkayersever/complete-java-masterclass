@@ -12,7 +12,7 @@ public class Main {
             System.out.println("Value was not 1 or 2");
         }
 
-        int switchValue = 1;
+        int switchValue = 4;
         switch (switchValue) {
             case 1:
                 System.out.println("Value was 1");
@@ -20,8 +20,12 @@ public class Main {
             case 2:
                 System.out.println("Value was 2");
                 break;
+            case 3: case 4: case 5:
+                System.out.println("Value was 3, 4 or 5");
+                System.out.println("Value: " + switchValue);
+                break;
             default:
-                System.out.println("Value was not 1 or 2");
+                System.out.println("Value was not 1, 2, 3, 4 or 5");
                 break;
         }
         // More code to be executed after the the break statement
