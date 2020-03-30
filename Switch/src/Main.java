@@ -29,10 +29,10 @@ public class Main {
                 break;
         }
         // More code to be executed after the the break statement
-        char switchCharValue = 'E';
-        switch (switchCharValue) {
+        char charValue = 'E';
+        switch (charValue) {
             case 'A': case 'B': case'C': case'D': case'E':
-                System.out.println(switchCharValue + " is found!");
+                System.out.println(charValue + " is found!");
                 break;
             default:
                 System.out.println("A, B, C, D, E not found!");
