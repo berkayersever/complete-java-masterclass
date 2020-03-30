@@ -12,7 +12,7 @@ public class Main {
             System.out.println("Value was not 1 or 2");
         }
 
-        int switchValue = 4;
+        int switchValue = 1;
         switch (switchValue) {
             case 1:
                 System.out.println("Value was 1");
