@@ -4,6 +4,7 @@ public class Main {
     private static final String INVALID_DAY = "Invalid Day";
 
     public static void main(String[] args) {
+        printDayOfTheWeek(-1);
         for (int i = 0; i < 8; i++) {
             printDayOfTheWeek(i);
         }
