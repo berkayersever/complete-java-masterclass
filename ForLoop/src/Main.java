@@ -11,10 +11,13 @@ public class Main {
         }
         System.out.println("********************************");
         int count = 0;
-        for (int i = 1500000000; i < 1600000000 && count < 10; i++) {
+        for (int i = 1500000000; i < 1600000000; i++) {
             if (isPrime(i)) {
                 System.out.println("Number " + i + " is a prime number!");
                 count++;
+                if (count == 10) {
+                    break;
+                }
             }
         }
     }
