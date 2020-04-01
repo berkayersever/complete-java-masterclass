@@ -11,7 +11,7 @@ public class Main {
         }
         System.out.println("********************************");
         int count = 0;
-        for (int i = 20; i < 100 && count < 3; i++) {
+        for (int i = 1500000000; i < 1600000000 && count < 10; i++) {
             if (isPrime(i)) {
                 System.out.println("Number " + i + " is a prime number!");
                 count++;
@@ -23,7 +23,7 @@ public class Main {
         if (n == 1) {
             return false;
         }
-        for (int i = 2; i <= n/2; i++) {
+        for (int i = 2; i <= (double) Math.sqrt(n); i++) {
             if (n % i == 0) {
                 return false;
             }
