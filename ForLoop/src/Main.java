@@ -5,6 +5,7 @@ public class Main {
             /* System.out.printf("$10.000 at %d%% interest is $%.1f %n", i, calculateInterest(10000.0, i)); */
             System.out.println("$10.000 at " + i + "% interest is $" + String.format("%.1f", calculateInterest(10000, i)));
         }
+        System.out.println("********************************");
         for (int i = 9; i > 0 ; i--) {
             System.out.println("$10.000 at " + i + "% interest is $" + String.format("%.1f", calculateInterest(10000, i)));
         }
