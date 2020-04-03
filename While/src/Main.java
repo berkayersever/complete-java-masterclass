@@ -19,5 +19,11 @@ public class Main {
             System.out.println("Count: " + count);
             count++;
         }
+        System.out.println("********");
+        count = 1;
+        do {
+            System.out.println("Count: " + count);
+            count++;
+        } while(count != 6);
     }
 }
