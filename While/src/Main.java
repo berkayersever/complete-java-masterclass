@@ -31,8 +31,8 @@ public class Main {
         int finish = 20;
 
         while(number <= finish) {
-            number++;
             if(!isEvenNumber(number)) {
+                number++;
                 continue;
             }
             System.out.println("Even Number: " + number);
@@ -40,6 +40,7 @@ public class Main {
             if(evenNumberCount == 5) {
                 break;
             }
+            number++;
         }
         System.out.println("***************");
         System.out.println("Total Number of Even Numbers Found: " + count);
