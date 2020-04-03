@@ -26,6 +26,7 @@ public class Main {
             count++;
         } while(count != 6);
         System.out.println("********");
+        count = 0;
         int number = 4;
         int finish = 20;
 
@@ -35,7 +36,13 @@ public class Main {
                 continue;
             }
             System.out.println("Even Number: " + number);
+            count++;
+            if(count == 5) {
+                break;
+            }
         }
+        System.out.println("***************");
+        System.out.println("Total Number of Even Numbers Found: " + count);
     }
 
     public static boolean isEvenNumber(int num) {
