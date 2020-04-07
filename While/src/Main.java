@@ -11,7 +11,7 @@ public class Main {
             System.out.println("Count: " + count);
         }
         System.out.println("********");*/
-        int count = 1;
+        /*int count = 1;
         while(true) {
             if(count == 6) {
                 break;
@@ -19,8 +19,8 @@ public class Main {
             System.out.println("Count: " + count);
             count++;
         }
-        System.out.println("********");
-        count = 1;
+        System.out.println("********");*/
+        int count = 1;
         do {
             System.out.println("Count: " + count);
             count++;
