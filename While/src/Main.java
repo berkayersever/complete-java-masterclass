@@ -43,7 +43,7 @@ public class Main {
             number++;
         }
         System.out.println("***************");
-        System.out.println("Total Number of Even Numbers Found: " + count);
+        System.out.println("Total Number of Even Numbers Found: " + number);
     }
 
     public static boolean isEvenNumber(int num) {
