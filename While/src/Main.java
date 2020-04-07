@@ -1,7 +1,7 @@
 public class Main {
 
     public static void main(String[] args) {
-        int count = 1;
+        /*int count = 1;
         while(count != 6) {
             System.out.println("Count: " + count);
             count++;
@@ -10,8 +10,8 @@ public class Main {
         for (count = 1; count != 6; count++) {
             System.out.println("Count: " + count);
         }
-        System.out.println("********");
-        count = 1;
+        System.out.println("********");*/
+        int count = 1;
         while(true) {
             if(count == 6) {
                 break;
