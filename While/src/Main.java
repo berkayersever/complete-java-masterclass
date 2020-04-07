@@ -20,12 +20,12 @@ public class Main {
             count++;
         }
         System.out.println("********");*/
-        int count = 1;
+        /*int count = 1;
         do {
             System.out.println("Count: " + count);
             count++;
         } while(count != 6);
-        System.out.println("********");
+        System.out.println("********");*/
         int evenNumberCount = 0;
         int number = 4;
         int finish = 20;
