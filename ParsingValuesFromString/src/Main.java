@@ -1,7 +1,7 @@
 public class Main {
 
     public static void main(String[] args) {
-        String numberAsString = "2020";
+        String numberAsString = "2020.125";
         System.out.println("numberAsString = " + numberAsString);
 
         double number = Double.parseDouble(numberAsString);
