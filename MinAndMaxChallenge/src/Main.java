@@ -18,8 +18,7 @@ public class Main {
             }
             scanner.nextLine();     // Handle the next line character (Enter Key)
         }
-        System.out.println("Min: " + min);
-        System.out.println("Max: " + max);
+        System.out.println("Min: " + min + ", Max: " + max);
         scanner.close();
     }
 }
