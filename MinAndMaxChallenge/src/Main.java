@@ -16,7 +16,7 @@ public class Main {
             else {
                 break;
             }
-            scanner.nextLine();
+            scanner.nextLine();     // Handle the next line character (Enter Key)
         }
         System.out.println("Min: " + min);
         System.out.println("Max: " + max);
