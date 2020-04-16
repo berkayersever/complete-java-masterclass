@@ -10,4 +10,8 @@ public class Car {
     public void setModelYear(int modelYear) {
         this.modelYear = modelYear;
     }
+
+    public int getModelYear() {
+        return this.modelYear;
+    }
 }
