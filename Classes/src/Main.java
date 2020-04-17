@@ -5,6 +5,7 @@ public class Main {
         Car porsche = new Car();
         Car mustang = new Car();
         porsche.setModelYear(2020);
-        System.out.println("Model year is " + porsche.getModelYear());
+        porsche.setModel("Carrera");
+        System.out.println("Model is " + porsche.getModel() + ", and the model year is " + porsche.getModelYear());
     }
 }
