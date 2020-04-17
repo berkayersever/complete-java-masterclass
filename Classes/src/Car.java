@@ -7,6 +7,10 @@ public class Car {
     private String engine;
     private String model;
 
+    public void setModel(String model) {
+        this.model = model;
+    }
+
     public void setModelYear(int modelYear) {
         this.modelYear = modelYear;
     }
