@@ -9,8 +9,11 @@ public class Car {
 
     public void setModel(String model) {
         String validModel = model.toLowerCase();
-        if(validModel.equals("porsche") || validModel.equals("mustang")) {
+        if(validModel.equals("carrera") || validModel.equals("gt500")) {
             this.model = model;
+        }
+        else {
+            this.model = "Unknown";
         }
     }
 
