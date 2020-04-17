@@ -8,7 +8,10 @@ public class Car {
     private String model;
 
     public void setModel(String model) {
-        this.model = model;
+        String validModel = model.toLowerCase();
+        if(validModel.equals("porsche") || validModel.equals("mustang")) {
+            this.model = model;
+        }
     }
 
     public String getModel() {
