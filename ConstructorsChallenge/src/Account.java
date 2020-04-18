@@ -1,49 +1,49 @@
 public class Account {
 
-    private int accountNumber;
-    private int balance;
-    private int phoneNumber;
+    private String number;
+    private double balance;
+    private String customerEmail;
     private String customerName;
-    private String email;
+    private String customerPhone;
 
-    public int getAccountNumber() {
-        return accountNumber;
+    public String getNumber() {
+        return number;
     }
 
-    public int getBalance() {
+    public void setNumber(String number) {
+        this.number = number;
+    }
+
+    public double getBalance() {
         return balance;
     }
 
-    public void setAccountNumber(int accountNumber) {
-        this.accountNumber = accountNumber;
-    }
-
-    public void setBalance(int balance) {
+    public void setBalance(double balance) {
         this.balance = balance;
     }
 
-    public void setPhoneNumber(int phoneNumber) {
-        this.phoneNumber = phoneNumber;
+    public String getCustomerEmail() {
+        return customerEmail;
     }
 
-    public void setCustomerName(String customerName) {
-        this.customerName = customerName;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public int getPhoneNumber() {
-        return phoneNumber;
+    public void setCustomerEmail(String email) {
+        this.customerEmail = email;
     }
 
     public String getCustomerName() {
         return customerName;
     }
 
-    public String getEmail() {
-        return email;
+    public void setCustomerName(String customerName) {
+        this.customerName = customerName;
+    }
+
+    public String getCustomerPhone() {
+        return customerPhone;
+    }
+
+    public void setCustomerPhone(String customerPhone) {
+        this.customerPhone = customerPhone;
     }
 
     public void deposit(int amount) {
@@ -51,7 +51,7 @@ public class Account {
     }
 
     public void withdraw(int amount) {
-        if(amount > this.balance) {
+        if (amount > this.balance) {
             System.out.println("Insufficient Funds");
             return;
         }
