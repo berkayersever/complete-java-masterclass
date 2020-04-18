@@ -51,11 +51,10 @@ public class Account {
     }
 
     public void withdraw(int amount) {
-        if(amount <= this.balance) {
-            this.balance -= amount;
-        }
-        else {
+        if(amount > this.balance) {
             System.out.println("Insufficient Funds");
+            return;
         }
+        this.balance -= amount;
     }
 }
