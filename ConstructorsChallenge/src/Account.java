@@ -14,6 +14,26 @@ public class Account {
         return balance;
     }
 
+    public void setAccountNumber(int accountNumber) {
+        this.accountNumber = accountNumber;
+    }
+
+    public void setBalance(int balance) {
+        this.balance = balance;
+    }
+
+    public void setPhoneNumber(int phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
+    public void setCustomerName(String customerName) {
+        this.customerName = customerName;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
     public int getPhoneNumber() {
         return phoneNumber;
     }
