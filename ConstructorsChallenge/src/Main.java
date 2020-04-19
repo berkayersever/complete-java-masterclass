@@ -2,7 +2,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Account myAccount = new Account("123456789", 0.0, "John Doe", "john@doe.com", "(532) 987-65-43");
+        /*Account myAccount = new Account("123456789", 0.0, "John Doe", "john@doe.com", "(532) 987-65-43");*/
+        Account myAccount = new Account();
         System.out.println(myAccount.getNumber());
         System.out.println(myAccount.getBalance());
         /*myAccount.setNumber("123456789");*/
