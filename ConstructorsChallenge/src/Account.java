@@ -7,6 +7,7 @@ public class Account {
     private String customerPhone;
 
     public Account() {
+        this("12345", 2.5, "Default Name", "Default Address", "Default Phone");
         System.out.println("Empty constructor has been called!");
     }
 
