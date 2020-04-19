@@ -6,6 +6,10 @@ public class Account {
     private String customerName;
     private String customerPhone;
 
+    public Account() {
+        System.out.println("Empty constructor has been called!");
+    }
+
     public void deposit(double amount) {
         this.balance += amount;
         System.out.println("Deposit of " + amount + " made. New balance is " + this.balance);
