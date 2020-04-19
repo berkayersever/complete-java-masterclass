@@ -12,6 +12,7 @@ public class Account {
     }
 
     public Account(String number, double balance, String customerEmail, String customerName, String customerPhone) {
+        System.out.println("Account constructor with parameters has been called!");
         this.number = number;
         this.balance = balance;
         this.customerEmail = customerEmail;
