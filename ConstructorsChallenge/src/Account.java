@@ -10,6 +10,14 @@ public class Account {
         System.out.println("Empty constructor has been called!");
     }
 
+    public Account(String number, double balance, String customerEmail, String customerName, String customerPhone) {
+        this.number = number;
+        this.balance = balance;
+        this.customerEmail = customerEmail;
+        this.customerName = customerName;
+        this.customerPhone = customerPhone;
+    }
+
     public void deposit(double amount) {
         this.balance += amount;
         System.out.println("Deposit of " + amount + " made. New balance is " + this.balance);
