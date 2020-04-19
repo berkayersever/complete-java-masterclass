@@ -23,7 +23,7 @@ public class Main {
         System.out.println("Account Number: " + csAccount.getNumber() + ", Name: " + csAccount.getCustomerName());
 
         VipCustomer vipCustomer1 = new VipCustomer();
-        VipCustomer vipCustomer2 = new VipCustomer("Java", "java@gmail.com");
+        VipCustomer vipCustomer2 = new VipCustomer("Java", 6000);
         VipCustomer vipCustomer3 = new VipCustomer("Python", 9999, "python@gmail.com");
 
         System.out.println("Name: " + vipCustomer1.getName() + ", Credit Limit: " + vipCustomer1.getCreditLimit() + ", Email: " + vipCustomer1.getEmailAddress());
