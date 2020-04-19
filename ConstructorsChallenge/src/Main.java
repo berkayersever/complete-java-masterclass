@@ -22,12 +22,12 @@ public class Main {
         Account csAccount = new Account("cs@live.com", "CS", "(535) 987-65-43");
         System.out.println("Account Number: " + csAccount.getNumber() + ", Name: " + csAccount.getCustomerName());
 
-        VipCustomer vipCustomer1 = new VipCustomer();
-        VipCustomer vipCustomer2 = new VipCustomer("Java", 6000);
-        VipCustomer vipCustomer3 = new VipCustomer("Python", 9999, "python@gmail.com");
+        VipCustomer customer1 = new VipCustomer();
+        VipCustomer customer2 = new VipCustomer("Java", 6000);
+        VipCustomer customer3 = new VipCustomer("Python", 9999, "python@gmail.com");
 
-        System.out.println("Name: " + vipCustomer1.getName() + ", Credit Limit: " + vipCustomer1.getCreditLimit() + ", Email: " + vipCustomer1.getEmailAddress());
-        System.out.println("Name: " + vipCustomer2.getName() + ", Credit Limit: " + vipCustomer2.getCreditLimit() + ", Email: " + vipCustomer2.getEmailAddress());
-        System.out.println("Name: " + vipCustomer3.getName() + ", Credit Limit: " + vipCustomer3.getCreditLimit() + ", Email: " + vipCustomer3.getEmailAddress());
+        System.out.println("Name: " + customer1.getName() + ", Credit Limit: " + customer1.getCreditLimit() + ", Email: " + customer1.getEmailAddress());
+        System.out.println("Name: " + customer2.getName() + ", Credit Limit: " + customer2.getCreditLimit() + ", Email: " + customer2.getEmailAddress());
+        System.out.println("Name: " + customer3.getName() + ", Credit Limit: " + customer3.getCreditLimit() + ", Email: " + customer3.getEmailAddress());
     }
 }
