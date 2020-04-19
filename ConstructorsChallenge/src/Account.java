@@ -6,6 +6,21 @@ public class Account {
     private String customerName;
     private String customerPhone;
 
+    public void deposit(double amount) {
+        this.balance += amount;
+        System.out.println("Deposit of " + amount + " made. New balance is " + this.balance);
+    }
+
+    public void withdraw(double amount) {
+        if(amount > this.balance) {
+            System.out.println("Insufficient Funds. Only " + this.balance + " available.");
+        }
+        else {
+            this.balance -= amount;
+            System.out.println("Withdrawal of " + amount + " processed. Remaining balance: " + balance);
+        }
+    }
+
     public String getNumber() {
         return number;
     }
@@ -44,17 +59,5 @@ public class Account {
 
     public void setCustomerPhone(String customerPhone) {
         this.customerPhone = customerPhone;
-    }
-
-    public void deposit(int amount) {
-        this.balance += amount;
-    }
-
-    public void withdraw(int amount) {
-        if (amount > this.balance) {
-            System.out.println("Insufficient Funds");
-            return;
-        }
-        this.balance -= amount;
     }
 }
