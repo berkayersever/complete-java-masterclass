@@ -18,5 +18,8 @@ public class Main {
 
         myAccount.deposit(51.0);
         myAccount.withdraw(100.0);
+
+        Account csAccount = new Account("cs@live.com", "CS", "(535) 987-65-43");
+        System.out.println("Account Number: " + csAccount.getNumber() + ", Name: " + csAccount.getCustomerName());
     }
 }
