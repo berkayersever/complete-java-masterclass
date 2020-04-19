@@ -20,6 +20,12 @@ public class Account {
         this.customerPhone = customerPhone;
     }
 
+    public Account(String customerEmail, String customerName, String customerPhone) {
+        this.customerEmail = customerEmail;
+        this.customerName = customerName;
+        this.customerPhone = customerPhone;
+    }
+
     public void deposit(double amount) {
         this.balance += amount;
         System.out.println("Deposit of " + amount + " made. New balance is " + this.balance);
