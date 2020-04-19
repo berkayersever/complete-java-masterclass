@@ -14,7 +14,7 @@ public class Main {
 
         myAccount.withdraw(100.0);
         myAccount.deposit(50.0);
-        myAccount.withdraw(100.0);
+        myAccount.withdraw(52.5);
 
         myAccount.deposit(51.0);
         myAccount.withdraw(100.0);
