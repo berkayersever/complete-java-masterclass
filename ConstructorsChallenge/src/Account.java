@@ -21,9 +21,7 @@ public class Account {
     }
 
     public Account(String customerEmail, String customerName, String customerPhone) {
-        this.customerEmail = customerEmail;
-        this.customerName = customerName;
-        this.customerPhone = customerPhone;
+        this("99999", 255.00, customerName, customerEmail, customerPhone);
     }
 
     public void deposit(double amount) {
