@@ -11,4 +11,9 @@ public class Vehicle {
         this.currentVelocity = 0;
         this.currentDirection = 0;
     }
+
+    public void steer(int direction) {
+        this.currentDirection += direction;
+        System.out.println("Vehicle.steer(): Steering at " + currentDirection + " degrees.");
+    }
 }
