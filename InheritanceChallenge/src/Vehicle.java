@@ -23,6 +23,10 @@ public class Vehicle {
         System.out.println("Vehicle.(): Moving at " + currentVelocity + " in direction " + currentDirection);
     }
 
+    public void stop() {
+        currentVelocity = 0;
+    }
+
     public String getName() {
         return name;
     }
