@@ -18,8 +18,8 @@ public class Vehicle {
     }
 
     public void move(int velocity, int direction) {
-        this.currentVelocity += velocity;
-        this.currentDirection += direction;
+        this.currentVelocity = velocity;
+        this.currentDirection = direction;
         System.out.println("Vehicle.(): Moving at " + currentVelocity + " in direction " + currentDirection);
     }
 
