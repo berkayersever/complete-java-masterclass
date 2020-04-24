@@ -1,6 +1,7 @@
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        Cayenne cayenne = new Cayenne(36);
+        cayenne.accelerate(30);
     }
 }
